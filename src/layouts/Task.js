@@ -38,8 +38,8 @@ export default function Task(props) {
 
                         </Card.Body>
                         <Card.Footer>
-                            <Button variant="primary">UP</Button>{' '}
-                            <Button variant="secondary">DOWN</Button>
+                            <Button variant="primary" disabled>UP</Button>{' '}
+                            <Button variant="secondary" disabled>DOWN</Button>
                         </Card.Footer>
                     </Card>
                 </Card.Body>
